@@ -4,31 +4,76 @@
             <title>OKFriends Official Site</title>
             <meta charset = "utf-8">
             <style>
-                div.header {
-                    background-color : blue;
+                #header {
+                    background-color : #008CBA;
+                    padding : 5px;
                 }
                 
                 body {
+                    margin : 0;
                     background-color : red;
                 }
                 
                 h1 {
                     color : white;
-                    margin-left : 46%;
+                    text-align : center;
+                    margin-left : 190px;
                 }
                 
                 img {
                     border-radius : 25px;
-                    margin-left : 42%;
                     width : 300px;
                     height : 300px;
+                    display : block;
+                    margin : 0 auto;
+                }
+                
+                button {
+                    float : right;
+                    background-color : #4CAF50;
+                    border : none;
+                    color : white;
+                    padding : 15px;
+                    text-align : center;
+                    text-decoration : none;
+                    display : inline-block;
+                    font-size : 18px;
+                    margin : 0px 5px 0px 0px;
+                    cursor : pointer;
+                    border-radius : 4px;
+                    transition : all 0.5s;
+                }
+                
+                button span {
+                    cursor : pointer;
+                    display : inline-block;
+                    position : relative;
+                    transition : 0.5s;
+                }
+                
+                button span:after {
+                    content : '>>';
+                    position : relative;
+                    opacity : 0;
+                    top : 0;
+                    right : -20px;
+                    transition : 0.5s;
+                }
+                
+                button:hover {
+                    padding-right : 20px;
+                }
+                
+                button:hover span:after {
+                    opacity : 1;
+                    right : 0;
                 }
             </style>
         </head>
         
         <body>
-            <div class = header>
-                <h1>OKFriends</h1>
+            <div id = header>
+                <h1>OKFriends<button type = "button"><span>About OKFriends </span></button></h1>
             </div>
             <img src = "OKF Logo.jpg">
         </body>
