@@ -1,6 +1,7 @@
 {
   "name": "okf",
   "description": "OKFriends",
+  "homepage": "https://github.com/statelo/OKFriends",
   "dependencies": {
     "angular": "~1.5.0",
     "angular-route": "~1.5.0",
