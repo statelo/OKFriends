@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Tsoy Stanislav",
+		"university": "Korea university",
+		"age": 1
+	}, 
+	{
+		"name": "Kan Sergey",
+		"university": "Seoul University Of Science And Technology",
+		"age": 2
+	}, 
+	{
+		"name": "Shin Oleksandr",
+		"university": "Seoul University",
+		"age": 3
+	}, 
+	{
+		"name": "Kan Anna",
+		"university": "Yonsei Unviersity",
+		"age": 4
+	},
+	{
+		"name": "Nam Anna",
+		"university": "Kyunghee University",
+		"age": 5
+	},
+	{
+		"name": "Lee Victoria",
+		"university": "Hanguk University Of Foreign Studies",
+		"age": 6
+	}
+]

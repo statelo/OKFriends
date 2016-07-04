@@ -3,9 +3,13 @@
 <head>
 	<title>OKFriends</title>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="app.css">
 	<script src="bower_components/angular/angular.js"></script>
-	<script src="app.js"></script>
-	<script src="region-list.js"></script>
+	<script src="app.module.js"></script>
+	<script src="region-list/region-list.module.js"></script>
+	<script src="member-list/member-list.module.js"></script>
+	<script src="member-list/member-list.component.js"></script>
+	<script src="region-list/region-list.component.js"></script>
 </head>
 <body>
 
@@ -37,7 +41,8 @@
 	</div>
 
 	<div class="col-sm-4">
-		<h1>About</h1>
+		<h1>Members</h1>
+		<member-list></member-list>
 	</div>
 </body>
 </html>

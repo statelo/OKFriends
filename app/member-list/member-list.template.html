@@ -1,0 +1,23 @@
+<div>
+	<p>
+		Search: 
+		<input ng-model="$ctrl.query" />
+	</p>
+	
+	<p>
+		Sort by:
+		<select ng-model="$ctrl.orderProp">
+			<option value="name">Name</option>
+			<option value="university">University</option>
+		</select>
+	</p>
+</div>
+
+<div>
+	<ul>
+		<li ng-repeat="member in $ctrl.members | filter: $ctrl.query | orderBy: $ctrl.orderProp">
+			<span>{{member.name}}</span>
+			<p>{{member.university}}</p>
+		</li>
+	</ul>
+</div>

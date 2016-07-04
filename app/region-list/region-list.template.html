@@ -1,0 +1,23 @@
+<div>
+	<p>
+		Search: 
+		<input ng-model="$ctrl.query" />
+	</p>
+	
+	<p>
+		Sort by:
+		<select ng-model="$ctrl.orderProp">
+			<option value="programName">Alphabetical</option>
+			<option value="age">Newest</option>
+		</select>
+	</p>
+</div>
+
+<div>
+	<ul>
+		<li ng-repeat="region in $ctrl.regions | filter: $ctrl.query | orderBy: $ctrl.orderProp">
+			<span>{{region.programName}}</span>
+			<p>{{region.regionName}}</p>
+		</li>
+	</ul>
+</div>
