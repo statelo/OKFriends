@@ -1,6 +1,7 @@
 'use strict';
 
 angular.module('okf', [
-	'regionList',
-	'memberList'
+	'ngRoute',
+	'memberList',
+	'memberDetail'
 ]);

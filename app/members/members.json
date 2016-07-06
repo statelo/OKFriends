@@ -1,32 +1,51 @@
 [
 	{
+		"id": "tsoy-stanislav",
 		"name": "Tsoy Stanislav",
 		"university": "Korea university",
-		"age": 1
+		"imageUrl": "img/members/Tsoy Stanislav.jpg",
+		"age": 23
 	}, 
 	{
+		"id": "kan-sergey",
 		"name": "Kan Sergey",
 		"university": "Seoul University Of Science And Technology",
-		"age": 2
+		"imageUrl": "img/members/Kan Sergey.jpg",
+		"age": 22
 	}, 
 	{
+		"id": "shin-oleksandr",
 		"name": "Shin Oleksandr",
 		"university": "Seoul University",
-		"age": 3
+		"imageUrl": "img/members/Shin Oleksandr.jpg",
+		"age": 20
 	}, 
 	{
-		"name": "Kan Anna",
+		"id": "kan-anastasiya",
+		"name": "Kan Anastasiya",
 		"university": "Yonsei Unviersity",
-		"age": 4
+		"imageUrl": "img/members/Kan Anastasiya.jpg",
+		"age": 23
 	},
 	{
+		"id": "nam-anna",
 		"name": "Nam Anna",
 		"university": "Kyunghee University",
-		"age": 5
+		"imageUrl": "img/members/Nam Anna.jpg",
+		"age": 23
 	},
 	{
+		"id": "lee-victoria",
 		"name": "Lee Victoria",
 		"university": "Hanguk University Of Foreign Studies",
-		"age": 6
+		"imageUrl": "img/members/Lee Victoria.jpg",
+		"age": 24
+	},
+	{
+		"id": "pak-oksana",
+		"name": "Pak Oksana",
+		"university": "Hanguk University Of Foreign Studies",
+		"imageUrl": "img/members/Pak Oksana.jpg",
+		"age": 24
 	}
 ]

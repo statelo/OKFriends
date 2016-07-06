@@ -9,15 +9,20 @@
 		<select ng-model="$ctrl.orderProp">
 			<option value="name">Name</option>
 			<option value="university">University</option>
+			<option value="age">Age</option>
 		</select>
 	</p>
 </div>
 
 <div>
-	<ul>
-		<li ng-repeat="member in $ctrl.members | filter: $ctrl.query | orderBy: $ctrl.orderProp">
-			<span>{{member.name}}</span>
+	<ul class="members">
+		<li ng-repeat="member in $ctrl.members | filter: $ctrl.query | orderBy: $ctrl.orderProp" class="thumbnail">
+			<a href="#!/members/{{member.id}}" class="thumb">
+				<img ng-src="{{member.imageUrl}}" alt="{{member.name}}" />
+			</a>
+			<a href="#!/members/{{member.id}}">{{member.name}}</a>
 			<p>{{member.university}}</p>
 		</li>
 	</ul>
 </div>
+
