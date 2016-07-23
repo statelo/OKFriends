@@ -1,6 +1,10 @@
 {
-	"image": [
-		"img/members/Lee Victoria.jpg"
+	"id": "lee-victoria",
+	"images": [
+		"img/members/Lee Victoria.0.jpg",
+		"img/members/Lee Victoria.1.jpg",
+		"img/members/Lee Victoria.2.jpg",
+		"img/members/Lee Victoria.3.jpg"
 	],
 	"name": "Lee Victoria",
 	"country": "Uzbekistan",

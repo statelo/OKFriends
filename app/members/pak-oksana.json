@@ -1,6 +1,10 @@
 {
-	"image": [
-		"img/members/Pak Oksana.jpg"
+	"id": "pak-oksana",
+	"images": [
+		"img/members/Pak Oksana.0.jpg",
+		"img/members/Pak Oksana.1.jpg",
+		"img/members/Pak Oksana.2.jpg",
+		"img/members/Pak Oksana.3.jpg"
 	],
 	"name": "Pak Oksana",
 	"country": "Uzbekistan",

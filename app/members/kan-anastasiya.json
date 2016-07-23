@@ -1,6 +1,10 @@
 {
-	"image": [
-		"img/members/Kan Anastasiya.jpg"
+	"id": "kan-anastasiya",
+	"images": [
+		"img/members/Kan Anastasiya.0.jpg",
+		"img/members/Kan Anastasiya.1.jpg",
+		"img/members/Kan Anastasiya.2.jpg",
+		"img/members/Kan Anastasiya.3.jpg"
 	],
 	"name": "Kan Anastasiya",
 	"country": "Uzbekistan",

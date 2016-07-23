@@ -1,6 +1,10 @@
 {
-	"image": [
-		"img/members/Shin Oleksandr.jpg"
+	"id": "shin-oleksandr",
+	"images": [
+		"img/members/Shin Oleksandr.0.jpg",
+		"img/members/Shin Oleksandr.1.jpg",
+		"img/members/Shin Oleksandr.2.jpg",
+		"img/members/Shin Oleksandr.3.jpg"
 	],
 	"name": "Shin Oleksandr",
 	"country": "Ukraine",

@@ -1,7 +1,13 @@
-<img ng-src="{{$ctrl.member.image[0]}}" class="member"/>
+<img ng-src="{{$ctrl.mainImageUrl}}" class="member"/>
 
 <h1 class="name">{{$ctrl.member.name}}</h1>
 
 <h2>{{$ctrl.member.country}}</h2>
 
 <p>Solo Or Not : {{$ctrl.member.relationship | checkmark}}</p>
+
+<ul class="member-thumbs">
+  <li ng-repeat="img in $ctrl.member.images">
+    <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)"/>
+  </li>
+</ul>

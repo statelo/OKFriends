@@ -1,6 +1,10 @@
 {
-	"image": [
-		"img/members/Kan Sergey.jpg"
+	"id": "kan-sergey",
+	"images": [
+		"img/members/Kan Sergey.0.jpg",
+		"img/members/Kan Sergey.1.jpg",
+		"img/members/Kan Sergey.2.jpg",
+		"img/members/Kan Sergey.3.jpg"
 	],
 	"name": "Kan Sergey",
 	"country": "Uzbekistan",

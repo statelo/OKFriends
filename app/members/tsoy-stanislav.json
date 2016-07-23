@@ -1,6 +1,10 @@
-{
-	"image": [
-		"img/members/Tsoy Stanislav.jpg"
+{	
+	"id": "tsoy-stanislav",
+	"images": [
+		"img/members/Tsoy Stanislav.0.jpg",
+		"img/members/Tsoy Stanislav.1.jpg",
+		"img/members/Tsoy Stanislav.2.jpg",
+		"img/members/Tsoy Stanislav.3.jpg"
 	],
 	"name": "Tsoy Stanislav",
 	"country": "Uzbekistan",

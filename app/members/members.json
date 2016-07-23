@@ -3,49 +3,49 @@
 		"id": "tsoy-stanislav",
 		"name": "Tsoy Stanislav",
 		"university": "Korea university",
-		"imageUrl": "img/members/Tsoy Stanislav.jpg",
+		"imageUrl": "img/members/Tsoy Stanislav.0.jpg",
 		"age": 23
 	}, 
 	{
 		"id": "kan-sergey",
 		"name": "Kan Sergey",
 		"university": "Seoul University Of Science And Technology",
-		"imageUrl": "img/members/Kan Sergey.jpg",
+		"imageUrl": "img/members/Kan Sergey.0.jpg",
 		"age": 22
 	}, 
 	{
 		"id": "shin-oleksandr",
 		"name": "Shin Oleksandr",
 		"university": "Seoul University",
-		"imageUrl": "img/members/Shin Oleksandr.jpg",
+		"imageUrl": "img/members/Shin Oleksandr.0.jpg",
 		"age": 20
 	}, 
 	{
 		"id": "kan-anastasiya",
 		"name": "Kan Anastasiya",
 		"university": "Yonsei Unviersity",
-		"imageUrl": "img/members/Kan Anastasiya.jpg",
+		"imageUrl": "img/members/Kan Anastasiya.0.jpg",
 		"age": 23
 	},
 	{
 		"id": "nam-anna",
 		"name": "Nam Anna",
 		"university": "Kyunghee University",
-		"imageUrl": "img/members/Nam Anna.jpg",
+		"imageUrl": "img/members/Nam Anna.0.jpg",
 		"age": 23
 	},
 	{
 		"id": "lee-victoria",
 		"name": "Lee Victoria",
 		"university": "Hanguk University Of Foreign Studies",
-		"imageUrl": "img/members/Lee Victoria.jpg",
+		"imageUrl": "img/members/Lee Victoria.0.jpg",
 		"age": 24
 	},
 	{
 		"id": "pak-oksana",
 		"name": "Pak Oksana",
 		"university": "Hanguk University Of Foreign Studies",
-		"imageUrl": "img/members/Pak Oksana.jpg",
+		"imageUrl": "img/members/Pak Oksana.0.jpg",
 		"age": 24
 	}
 ]

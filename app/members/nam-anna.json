@@ -1,6 +1,10 @@
 {
-	"image": [
-		"img/members/Nam Anna.jpg"
+	"id": "nam-anna",
+	"images": [
+		"img/members/Nam Anna.0.jpg",
+		"img/members/Nam Anna.1.jpg",
+		"img/members/Nam Anna.2.jpg",
+		"img/members/Nam Anna.3.jpg"
 	],
 	"name": "Nam Anna",
 	"country": "Uzbekistan",
