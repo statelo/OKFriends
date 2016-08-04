@@ -4,18 +4,17 @@ angular.
 	module('memberDetail').
 	component('memberDetail', {
 		templateUrl: 'member-detail/member-detail.template.html',
-		controller: ['$http', '$routeParams',
-			function MemberDetailController($http, $routeParams) {
+		controller: ['$routeParams', 'Member',
+			function MemberDetailController($routeParams, Member) {
 				var self = this;
+				
+				self.member = Member.get({memberId: $routeParams.memberId}, function(member) {
+					self.setImage(member.images[0]);
+				});
 
 				self.setImage = function setImage(imageUrl) {
 					self.mainImageUrl = imageUrl;
 				};
-
-				$http.get('members/' + $routeParams.memberId + '.json').then(function(response) {
-					self.member = response.data;
-					self.setImage(self.member.images[0]);
-				});
 			}
 		]
 	});

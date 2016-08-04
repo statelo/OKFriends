@@ -1,5 +1,6 @@
 'use strict';
 
 angular.module('memberDetail', [
-	'ngRoute'
+	'ngRoute',
+	'core.member'
 ]);
