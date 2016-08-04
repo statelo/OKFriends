@@ -1,4 +1,8 @@
-<img ng-src="{{$ctrl.mainImageUrl}}" class="member"/>
+<div class="member-images">
+  <img ng-src="{{img}}" class="member"
+      ng-class="{selected: img === $ctrl.mainImageUrl}"
+      ng-repeat="img in $ctrl.member.images" />
+</div>
 
 <h1 class="name">{{$ctrl.member.name}}</h1>
 

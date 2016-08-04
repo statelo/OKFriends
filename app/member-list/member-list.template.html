@@ -16,7 +16,7 @@
 
 <div>
 	<ul class="members">
-		<li ng-repeat="member in $ctrl.members | filter: $ctrl.query | orderBy: $ctrl.orderProp" class="thumbnail">
+		<li ng-repeat="member in $ctrl.members | filter: $ctrl.query | orderBy: $ctrl.orderProp" class="thumbnail member-list-item">
 			<a href="#!/members/{{member.id}}" class="thumb">
 				<img ng-src="{{member.imageUrl}}" alt="{{member.name}}" />
 			</a>
