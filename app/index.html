@@ -14,27 +14,32 @@
 	<script src="app.module.js"></script>
 	<script src="core/core.module.js"></script>
 	<script src="core/member/member.module.js"></script>
+	<script src="okf-home/okf-home.module.js"></script>
+	<script src="member-detail/member-detail.module.js"></script>
+	<script src="member-list/member-list.module.js"></script>
+	<script src="app.animations.js"></script>
 	<script src="core/member/member.service.js"></script>
 	<script src="core/checkmark/checkmark.filter.js"></script>
-	<script src="app.animations.js"></script>
 	<script src="app.config.js"></script>
-	<script src="member-list/member-list.module.js"></script>
-	<script src="member-detail/member-detail.module.js"></script>
+	<script src="okf-home/okf-home.component.js"></script>
 	<script src="member-list/member-list.component.js"></script>
 	<script src="member-detail/member-detail.component.js"></script>
 </head>
 <body>
 
+	<div class="jumbotron">
+  		<div class="container text-center">
+    		<h2>2016 OKFriends HomeComing Teens/Youth</h2>
+  		</div>
+	</div>
+
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#!/members">OKFriends</a>
+	      <a class="navbar-brand" href="#!/home">OKFriends</a>
 	    </div>
 	    <ul class="nav navbar-nav">
-	      <li class="active"><a href="#!/members">OKF 2016</a></li>
-	      <li><a href="#">OKF GoGlobal</a></li>
-	      <li><a href="#">OKF HomeComing Teens</a></li>
-	      <li><a href="#">OKF HomeComing Youth</a></li>
+	      <li class="active"><a href="#!/members">OKF 2016 Members</a></li>
 	    </ul>
 	    <ul class="nav navbar-nav navbar-right">
 	    	<li><a href="#"><span class="glyphicon glyphicon-user"> Sign Up</span></a></li>
@@ -43,11 +48,10 @@
 	  </div>
 	</nav>
 
-	<div class="col-sm-12">
-		<h1>Members</h1>
-		<div class="view-container">
-      		<div ng-view class="view-frame"></div>
-    	</div>
+	<div class="jumbotron bottom">
+		<div class="container text-center">
+			<div ng-view class="view-frame"></div>
+		</div>
 	</div>
 </body>
 </html>

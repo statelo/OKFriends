@@ -1,4 +1,4 @@
-.col-sm-4 {
+.col-sm-12 {
 	text-align: center;
 }
 
@@ -11,19 +11,20 @@
 }
 
 .members li {
+  background-color: #deeded;
   clear: both;
   height: 115px;
   padding-top: 15px;
 }
 
 .member {
-  background-color: white;
+  background-color: orange;
   display: none;
   float: left;
   height: 400px;
   margin-bottom: 2em;
   margin-right: 3em;
-  padding: 2em;
+  padding: 0em;
   width: 400px;
 }
 
@@ -34,10 +35,17 @@
 .member-images {
   background-color: white;
   float: left;
-  height: 450px;
+  height: 400px;
   overflow: hidden;
   position: relative;
-  width: 450px;
+  width: 400px;
+}
+
+h2 {
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 350%;
+  color: #3366cc;
 }
 
 h1.name {
@@ -61,4 +69,18 @@ h1.name {
   cursor: pointer;
   display: inline-block;
   margin: 1em;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  background-color: #deeded;
+  margin: 0;
+}
+
+.jumbotron.bottom {
+  background-color: #f6f6f6;
+  margin: 0;
 }

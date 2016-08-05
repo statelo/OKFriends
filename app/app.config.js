@@ -7,12 +7,15 @@ angular.
 			$locationProvider.hashPrefix('!');
 
 			$routeProvider.
+				when('/home', {
+					template: '<okf-home></okf-home>'
+				}).
 				when('/members', {
 					template: '<member-list></member-list>'
 				}).
 				when('/members/:memberId', {
 					template: '<member-detail></member-detail>'
 				}).
-				otherwise('/members');
+				otherwise('/index.html');
 		}
 	]);
