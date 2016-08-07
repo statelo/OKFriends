@@ -16,6 +16,6 @@ angular.
 				when('/members/:memberId', {
 					template: '<member-detail></member-detail>'
 				}).
-				otherwise('/index.html');
+				otherwise('/home');
 		}
 	]);
