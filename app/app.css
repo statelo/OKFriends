@@ -73,6 +73,23 @@ h1.name {
 
 .navbar {
   margin-bottom: 0;
+  background-color: #deeded;
+  z-index: 9999;
+  border: 0;
+  font-family: "Comic Sans";
+  font-weight: bold;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: blue !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: blue !important;
+    background-color: #fff !important;
 }
 
 .jumbotron {
@@ -83,4 +100,8 @@ h1.name {
 .jumbotron.bottom {
   background-color: #f6f6f6;
   margin: 0;
+}
+
+img.logo {
+	border-radius: 25px;
 }

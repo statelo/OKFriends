@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="okf">
 <head>
-	<title>OKFriends</title>
+	<title>OKFriends Official Homepage</title>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="app.css">
 	<link rel="stylesheet" href="app.animations.css" />
@@ -27,15 +27,9 @@
 </head>
 <body>
 
-	<div class="jumbotron">
-  		<div class="container text-center">
-    		<h2>2016 OKFriends HomeComing Teens/Youth</h2>
-  		</div>
-	</div>
-
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
-	    <div class="navbar-header">
+	    <div class="collapse navbar-collapse">
 	      <a class="navbar-brand" href="#!/home">OKFriends</a>
 	    </div>
 	    <ul class="nav navbar-nav">
@@ -48,10 +42,21 @@
 	  </div>
 	</nav>
 
+	<div class="jumbotron">
+  		<div class="container text-center">
+    		<h2>OKFriends HomeComing Teens/Youth</h2>
+  		</div>
+	</div>
+
 	<div class="jumbotron bottom">
 		<div class="container text-center">
 			<div ng-view class="view-frame"></div>
 		</div>
 	</div>
+
+
+	<footer class="container-fluid text-center">
+		<h3>Organizators: YMCA Korea & Overseas Korean Foundation</h3>
+	</footer>
 </body>
 </html>
