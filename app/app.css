@@ -142,3 +142,8 @@ body {
   padding-left: 190px;
   padding-right: 0px;
 }
+
+.logo-small {
+    color: #3366cc;
+    font-size: 50px;
+}
