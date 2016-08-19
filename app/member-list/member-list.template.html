@@ -1,6 +1,5 @@
-<h1>Members</h1>
-
-<div>
+<div class="text-center">
+	<h1>Members</h1>
 	<p>
 		Search: 
 		<input ng-model="$ctrl.query" />
@@ -16,7 +15,7 @@
 	</p>
 </div>
 
-<div>
+<div class="text-center memberList">
 	<ul class="members">
 		<li ng-repeat="member in $ctrl.members | filter: $ctrl.query | orderBy: $ctrl.orderProp" class="thumbnail member-list-item">
 			<a href="#!/members/{{member.id}}" class="thumb">

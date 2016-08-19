@@ -1,17 +1,19 @@
-<div class="member-images">
-  <img ng-src="{{img}}" class="member"
-      ng-class="{selected: img === $ctrl.mainImageUrl}"
-      ng-repeat="img in $ctrl.member.images" />
+<div class="container text-center">
+	<div class="member-images">
+  		<img ng-src="{{img}}" class="member"
+      		 ng-class="{selected: img === $ctrl.mainImageUrl}"
+      		 ng-repeat="img in $ctrl.member.images" />
+	</div>
+
+	<h1 class="name">{{$ctrl.member.name}}</h1>
+
+	<h2>{{$ctrl.member.country}}</h2>
+
+	<p>Solo Or Not : {{$ctrl.member.relationship | checkmark}}</p>
+
+	<ul class="member-thumbs">
+  		<li ng-repeat="img in $ctrl.member.images">
+    		<img ng-src="{{img}}" ng-click="$ctrl.setImage(img)"/>
+  		</li>
+	</ul>
 </div>
-
-<h1 class="name">{{$ctrl.member.name}}</h1>
-
-<h2>{{$ctrl.member.country}}</h2>
-
-<p>Solo Or Not : {{$ctrl.member.relationship | checkmark}}</p>
-
-<ul class="member-thumbs">
-  <li ng-repeat="img in $ctrl.member.images">
-    <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)"/>
-  </li>
-</ul>

@@ -1,6 +1,7 @@
 {
   "name": "okf",
   "version": "1.0.0",
+  "license": "JSON",
   "description": "OKFriends",
   "repository": "https://github.com/statelo/OKFriends",
   "devDependencies": {

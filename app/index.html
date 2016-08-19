@@ -25,39 +25,32 @@
 	<script src="member-list/member-list.component.js"></script>
 	<script src="member-detail/member-detail.component.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#!/home">OKFriends</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#!members">MEMBERS</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-	<div class="jumbotron">
-  		<div class="container text-center">
-    		<h2>OKFriends HomeComing Teens/Youth</h2>
+	<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="#!/home">OKFriends</a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#about">ABOUT</a></li>
+        			<li><a href="#!/members">MEMBERS</a></li>
+      			</ul>
+    		</div>
   		</div>
-	</div>
+	</nav>
 
-	<div class="jumbotron bottom">
-		<div class="container text-center">
-			<div ng-view class="view-frame"></div>
-		</div>
+	<div class="jumbotron text-center">
+	   	<h2>OKFriends HomeComing Teens/Youth</h2>
 	</div>
-
+		
+	<div ng-view class="view-frame"></div>
 
 	<footer class="container-fluid text-center">
 		<h3>Organizators: YMCA Korea & Overseas Korean Foundation</h3>

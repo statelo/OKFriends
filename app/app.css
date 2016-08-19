@@ -42,7 +42,7 @@
 }
 
 h2 {
-  font-family: "Arial";
+  font: 400 15px Lato, sans-serif;
   font-weight: bold;
   font-size: 350%;
   color: #3366cc;
@@ -50,6 +50,7 @@ h2 {
 
 h1.name {
   border-bottom: 1px solid gray;
+  font: 400 50px Lato, sans-serif;
 }
 
 .member-thumbs {
@@ -76,7 +77,7 @@ h1.name {
   background-color: #deeded;
   z-index: 9999;
   border: 0;
-  font-family: "Comic Sans";
+  font: 400 15px Lato, sans-serif;
   font-weight: bold;
   font-size: 12px !important;
   line-height: 1.42857143 !important;
@@ -97,11 +98,47 @@ h1.name {
   margin: 0;
 }
 
-.jumbotron.bottom {
-  background-color: #f6f6f6;
-  margin: 0;
-}
-
 img.logo {
 	border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+strong {
+  font: 400 15px Lato, sans-serif;
+}
+
+img {
+  padding-bottom: 5px;
+}
+
+.thumbnail {
+  padding-bottom: 0;
+}
+
+body {
+  font: 400 15px Lato, sans-serif;
+}
+
+.memberList {
+  margin-right: 50px;
+}
+
+.about {
+  padding-left: 190px;
+  padding-right: 0px;
+  padding-top: 25px;
+}
+
+.abouth2 {
+  padding-left: 190px;
+  padding-right: 0px;
+}
+
+.abouth3 {
+  padding-left: 190px;
+  padding-right: 0px;
 }
