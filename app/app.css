@@ -100,11 +100,15 @@ h1.name {
 
 img.logo {
 	border-radius: 25px;
-  margin-bottom: 25px;
+	padding-top: 5px;
 }
 
 .bg-grey {
   background-color: #f6f6f6;
+}
+
+.bg-white {
+	background-color: white;
 }
 
 strong {
@@ -146,11 +150,6 @@ body {
 .logo-small {
     color: #3366cc;
     font-size: 50px;
-}
-
-.youth {
-	padding-top: 25px;
-	padding-bottom: 25px;
 }
 
 .bg-okf {
