@@ -85,11 +85,11 @@ h1.name {
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: blue !important;
+    color: #3366cc !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: blue !important;
+    color: #3366cc !important;
     background-color: #fff !important;
 }
 
